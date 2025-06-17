@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+}
+
+body, html {
+  background: linear-gradient(90deg, #0d0d0d, #1a1a1a, #003366);
+  text-align: center;
+  color: white;
+  
+}
+
+.Title {
+  margin: 30px 0 20px;
+
+}
+
+.btn {
+  cursor: pointer;
+  width: 110px;
+  margin: 15px;
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(131, 129, 129);
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: rgb(105, 105, 105);
+}
+
+#reset-game-btn {
+  display: none;
+  margin: 20px auto;
+}
+
+.rules-container {
+  line-height: 40px;
+  background-color: #e3e4ff;
+  color: black;
+  border-radius: 10px;
+  border: 3px solid #171827;
+  padding: 5px;
+  margin: auto auto 20px;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .rules-container {
+    width: 50%;
+  }
+}
+
+.score-container {
+  display: inline-flex;
+  gap: 100px;
+  margin-bottom: 20px;
+}
+
+.score-container span {
+  color: white;
+}
